@@ -1,6 +1,6 @@
 " Setup vundle plugins
 " =============================================================================
-so ~/.vim/plugins.vim
+source ~/.vim/plugins.vim
 
 
 " Lightline settings
@@ -25,6 +25,11 @@ syntax on
 set number
 colorscheme gruvbox
 
+"" Tabs
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+
 "" Keymappings
 let mapleader = "-"
 
@@ -32,6 +37,10 @@ let mapleader = "-"
 inoremap jk <esc>
 nnoremap <space> viw
 nnoremap <leader>c viw~<esc>
+inoremap <S-tab> <C-d>
+nnoremap <S-tab> <<
+inoremap <tab> <C-t>
+nnoremap <tab> >>
 
 """ Windows
 noremap <C-h> <C-w>h
