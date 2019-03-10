@@ -35,6 +35,7 @@ let mapleader = "-"
 
 """ Editing
 inoremap jk <esc>
+vnoremap jk <esc> 
 nnoremap <space> viw
 nnoremap <leader>c viw~<esc>
 inoremap <S-tab> <C-d>
