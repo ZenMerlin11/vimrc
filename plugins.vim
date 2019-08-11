@@ -17,7 +17,6 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
-Plugin 'morhetz/gruvbox'
 
 call vundle#end()
 filetype plugin indent on
