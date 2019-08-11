@@ -23,6 +23,8 @@ let g:NERDTreeNodeDelimiter = "\u00a0"
 "" Appearance 
 syntax on
 set number
+set background=dark
+let g:gruvbox_contrast_dark = "medium"
 colorscheme gruvbox
 
 "" Tabs
